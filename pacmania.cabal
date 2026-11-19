@@ -1,0 +1,21 @@
+name:                pacmania
+version:             0.1.0.0
+author:              Julius Kurvers, Cas Blankestijn
+maintainer:          j.a.kurvers@uu.nl
+category:            Game
+build-type:          Simple
+cabal-version:       >=1.10
+
+
+executable pacmania
+  main-is:             Main.hs
+  build-depends:       base >= 4 && < 5,
+                       gloss,
+                       vector,
+                       random,
+                       directory
+  hs-source-dirs:      src
+  other-modules:       Controller
+                     , Model
+                     , View
+  default-language:    Haskell2010
