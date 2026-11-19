@@ -2,7 +2,7 @@
 PacMan rewritten in Haskell for an assignment
 
 # Running this 
-This is a Cabal project. Use Cabal to build and run
+This is a Cabal project. Use the Haskell Cabal to build and run
 
 # Authors
 
