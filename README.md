@@ -2,7 +2,19 @@
 PacMan rewritten in Haskell for an assignment
 
 # Running this 
-This is a Cabal project. Use the Haskell Cabal to build and run
+Requirements:
+- GHC
+- Cabal
+
+Install GHC and Cabal using GHCup:
+https://www.haskell.org/ghcup/
+
+Running:
+1. Open a terminal in the project root.
+2. Run:
+
+   cabal run
+
 
 # Authors
 
